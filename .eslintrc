@@ -70,13 +70,14 @@
             "printWidth": 120,
             "semi": true,
             "singleQuote": false,
-            "trailingComma": "all",
-            "bracketSpacing": false,
+            "trailingComma": "none",
+            "bracketSpacing": true,
             "jsxBracketSameLine": true,
             "arrowParens": "avoid",
             "insertPragma": true,
             "tabWidth": 4,
-            "useTabs": false  
+            "useTabs": false,
+            "endOfLine":"auto"
           }
         ]
     }                           
