@@ -64,6 +64,8 @@
         "react-hooks/exhaustive-deps": 1,                                // 允许在 useEffect 中使用未监听变量
         "arrow-parens":[1,"as-needed"],                                  // 箭头函数单个参数时省略括号
         "arrow-body-style":[1, "as-needed"],                             // 箭头函数返回值优化return
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
         "prettier/prettier": [
           "warn",
           {

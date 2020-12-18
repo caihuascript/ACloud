@@ -3,7 +3,8 @@
 import React from "react";
 import "./AppContainer.scss";
 import { Input, Button } from "antd";
-export default class AppContainer extends React.Component {
+
+class AppContainer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -34,3 +35,5 @@ export default class AppContainer extends React.Component {
         );
     }
 }
+
+export default AppContainer;
