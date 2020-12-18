@@ -1,0 +1,13 @@
+{
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+        "javascript",  //  用eslint的规则检测js文件
+        "javascriptreact"  //  用eslint的规则检测jsx文件,
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[scss]": {
+        "editor.formatOnSave": true
+      }     
+}
